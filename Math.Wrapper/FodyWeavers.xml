@@ -3,6 +3,7 @@
   <Costura 
            IncludeDebugSymbols='true'
            DisableCompression='false'
+            Unmanaged64Assemblies='Math.Native'
            
            
   />
