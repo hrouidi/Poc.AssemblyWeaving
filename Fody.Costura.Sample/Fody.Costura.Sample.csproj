@@ -67,9 +67,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Math.Wrapper\Math.Wrapper.csproj">
       <Project>{626c58b9-67de-4bf9-8da9-9c915988348b}</Project>
       <Name>Math.Wrapper</Name>

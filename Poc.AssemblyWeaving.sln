@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math.Wrapper", "Math.Wrappe
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6} = {47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fody.Costura.Sample", "Fodu.Costura.Sample\Fody.Costura.Sample.csproj", "{80D8E93F-826F-41C1-86B5-B47D876554BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fody.Costura.Sample", "Fody.Costura.Sample\Fody.Costura.Sample.csproj", "{80D8E93F-826F-41C1-86B5-B47D876554BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,8 +56,8 @@ Global
 		{80D8E93F-826F-41C1-86B5-B47D876554BF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80D8E93F-826F-41C1-86B5-B47D876554BF}.Release|x64.ActiveCfg = Release|Any CPU
 		{80D8E93F-826F-41C1-86B5-B47D876554BF}.Release|x64.Build.0 = Release|Any CPU
-		{80D8E93F-826F-41C1-86B5-B47D876554BF}.Release|x86.ActiveCfg = Release|Any CPU
-		{80D8E93F-826F-41C1-86B5-B47D876554BF}.Release|x86.Build.0 = Release|Any CPU
+		{80D8E93F-826F-41C1-86B5-B47D876554BF}.Release|x86.ActiveCfg = Release|x86
+		{80D8E93F-826F-41C1-86B5-B47D876554BF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
