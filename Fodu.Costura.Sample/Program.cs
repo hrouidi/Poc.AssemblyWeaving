@@ -8,6 +8,7 @@ namespace Fody.Costura.Sample
         static void Main(string[] args)
         {
             var ret = MathWrapper.Add(1, 2);
+            Console.WriteLine("1+2={0}", ret);
             Console.ReadLine();
         }
     }

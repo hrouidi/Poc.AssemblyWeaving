@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math.Native", "Math.Native\Math.Native.vcxproj", "{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math.Wrapper", "Math.Wrapper\Math.Wrapper.csproj", "{626C58B9-67DE-4BF9-8DA9-9C915988348B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6} = {47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fody.Costura.Sample", "Fodu.Costura.Sample\Fody.Costura.Sample.csproj", "{80D8E93F-826F-41C1-86B5-B47D876554BF}"
 EndProject
@@ -20,11 +23,13 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Debug|Any CPU.ActiveCfg = Release|x64
+		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Debug|Any CPU.Build.0 = Release|x64
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Debug|x64.ActiveCfg = Release|x64
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Debug|x64.Build.0 = Release|x64
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Debug|x86.ActiveCfg = Debug|Win32
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Debug|x86.Build.0 = Debug|Win32
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Release|Any CPU.ActiveCfg = Release|x64
+		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Release|Any CPU.Build.0 = Release|x64
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Release|x64.ActiveCfg = Release|x64
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Release|x64.Build.0 = Release|x64
 		{47CD6E95-C9E0-4D5C-BC40-8F3B2B8DDDA6}.Release|x86.ActiveCfg = Release|Win32
