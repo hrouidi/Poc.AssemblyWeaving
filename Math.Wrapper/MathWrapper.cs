@@ -6,7 +6,7 @@ namespace Math.Wrapper
     {
         private const string DllName = "Math.Native.dll";
 
-        [DllImport(DllName, EntryPoint = "?Add@MyMathFuncs@MathFuncs@@SANNN@Z")]
+        [DllImport(DllName)]
         public static extern double Add(double a, double b);
 
         [DllImport(DllName)]

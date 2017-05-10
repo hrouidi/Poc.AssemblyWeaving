@@ -1,32 +1,28 @@
 #include "SimpleFunctions.h"
 #include <stdexcept>
 
-using namespace std;
 
-namespace MathFuncs
+double Add(double a, double b)
 {
-	double MyMathFuncs::Add(double a, double b)
+	return a + b;
+}
+
+double Subtract(double a, double b)
+{
+	return a - b;
+}
+
+double Multiply(double a, double b)
+{
+	return a * b;
+}
+
+double Divide(double a, double b)
+{
+	if (b == 0)
 	{
-		return a + b;
+		throw new std::invalid_argument("b cannot be zero!");
 	}
 
-	double MyMathFuncs::Subtract(double a, double b)
-	{
-		return a - b;
-	}
-
-	double MyMathFuncs::Multiply(double a, double b)
-	{
-		return a * b;
-	}
-
-	double MyMathFuncs::Divide(double a, double b)
-	{
-		if (b == 0)
-		{
-			throw new invalid_argument("b cannot be zero!");
-		}
-
-		return a / b;
-	}
+	return a / b;
 }
